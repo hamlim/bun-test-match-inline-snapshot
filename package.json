@@ -1,0 +1,16 @@
+{
+  "name": "bun-test-match-inline-snapshot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@suchipi/match-inline-snapshot": "^0.0.2",
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "format": "biome check --write ."
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
